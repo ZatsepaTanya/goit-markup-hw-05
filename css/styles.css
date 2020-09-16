@@ -63,6 +63,10 @@ img{
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier (0.4, 0, 0.2, 1);
 }
 .site-nav .link:hover, 
 .site-nav .link:focus{
@@ -100,6 +104,10 @@ img{
      font-size: 14px;
      line-height: 1.14;
      text-decoration: none;
+
+     transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier (0.4, 0, 0.2, 1);
 }
 .mail .link:hover,
 .mail .link:focus{
@@ -107,6 +115,9 @@ img{
 }
 .info{
     margin-right: 10px;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier (0.4, 0, 0.2, 1);
 }
 .mail .link:hover .info,
 .mail .link:focus .info
@@ -158,12 +169,15 @@ img{
     padding: 10px 32px;
     border: 1 px solid transparent;
 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     background-color: var(--accent-color);
     color: #ffffff;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     text-decoration: none;
+    letter-spacing: 0.06em;
  }
  .section.plus{
      padding-top: 94px;
@@ -277,6 +291,10 @@ margin-right: 10px;
     height: 44px;
     background-color: #fff;
     border-radius: 50%;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier (0.4, 0, 0.2, 1);
     
 }
 .social-icon-link:hover,
@@ -292,6 +310,12 @@ margin-right: 10px;
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
+    
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier (0.4, 0, 0.2, 1);
+
+    
 }
 .social-icon.info.envelope{
     width: 16px;
@@ -357,6 +381,12 @@ margin-right: 10px;
     width: 170px;
     height: 90px;
 }
+
+.customer-icon-link{
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier (0.4, 0, 0.2, 1);
+}
 .customer-icon-link:hover,
 .customer-icon-link:hover{
     border: 1px solid var(--accent-color);
@@ -364,6 +394,11 @@ margin-right: 10px;
 .customer-icon-link:hover .social-icon-partner,
 .customer-icon-link:focus .social-icon-partner{
     fill: var(--accent-color);
+}
+.social-icon-partner{
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier (0.4, 0, 0.2, 1);
 }
 .post {
     padding-top: 60px;
@@ -453,17 +488,18 @@ letter-spacing: 0.03em;
     margin-bottom: 0px ;
     margin-top: 0px;
 }
-button{
+.filtr-project{
     padding: 0px;
     border-radius: 4px;
     background: #F5F4FA;
     border: transparent;
+
 }
-button :hover{
+.filtr-project :hover{
     background: var(--accent-color);
     color:#ffffff;
 }
-button :hover .filtr-title{
+.filtr-project :hover .filtr-title{
     color: #FFFFFF;
 }
 .portfolio{
@@ -486,6 +522,9 @@ margin-right: 8px;
     padding: 6px 22px;
     margin: 0px;
     
+    transition-property: color, background;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier (0.4, 0, 0.2, 1);
 }
 
 .example{
@@ -500,6 +539,10 @@ margin-right: 8px;
     background: #FFFFFF;
     
     box-sizing: border-box;
+   
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier (0.4, 0, 0.2, 1);
 
 }
 .card{
